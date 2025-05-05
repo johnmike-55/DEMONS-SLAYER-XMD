@@ -2,7 +2,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "Demon-Slayer~WZj0KrAR",
+  SESSION_ID: process.env.SESSION_ID || "Demo-Slayer~cYZFyRoA#0gJj0m4BE7Pqmkt0Be4PsSeM0FR0VAvc8-Xi0ha-tGs",
   PREFIX: process.env.PREFIX || '.',
   //let's add menu captions by lord joel
   BOT_NAME: process.env.BOT_NAME || "Demon Slayer",
@@ -28,8 +28,8 @@ const config = {
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
   MODE: process.env.MODE || "private",
   OWNER_NAME: process.env.OWNER_NAME || "Marisel",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "218942841878",
-  SUDO_NUMBER: process.env.SUDO_NUMBER || "254740007567",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "254111798177",
+  SUDO_NUMBER: process.env.SUDO_NUMBER || "254111798177",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false,
 };
